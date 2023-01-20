@@ -1,0 +1,3 @@
+gallery: https://codepen.io/jkmquitasol/pen/JxrKxX
+
+slider: https://codepen.io/FelixACC/pen/MWBpLKw

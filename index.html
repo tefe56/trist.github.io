@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>trist.</h1>
+        </div>
+        <ul id="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="banner-home">
+            <video autoplay muted loop id="videoHome" src="./img/Oficina - 80314.mp4"></video>
+            <div id="banner-container">
+                <h5 style="margin: 0;">WELCOME TO THE TRIST</h5>
+                <h1 style="font-size: 38px;margin: 15px 0">Lets Design Your<br>Future.</h1>
+                <button class="web-button">CONTACT ME</button> <button class="works-button">SEE MY WORKS</button>
+            </div>
+            <div id="banner-button"><button><i class="fa-solid fa-play" style="color: yellow;"></i></button></div>
+        </div>
+        <section id="services">
+            <div class="service-card">
+                <i class="fa-solid fa-desktop fa-3x"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ultricies mauris ac euismod.
+                    Vivamus at turpis tempor, gravida nibh ac, pellentesque enim. </p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-pen-to-square fa-3x"></i>
+                <h2>Illustrations</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ultricies mauris ac euismod.
+                    Vivamus at turpis tempor, gravida nibh ac, pellentesque enim. </p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-desktop fa-3x"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ultricies mauris ac euismod.
+                    Vivamus at turpis tempor, gravida nibh ac, pellentesque enim. </p>
+            </div>
+        </section>
+        <section class="myworks">
+            <div><img id="laptop" src="./img/NicePng_laptop-mockup-png_416610.png" alt=""></div>
+            <div class="myworks-card  center">
+                <h1>Super Coder in Love With Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                    malesuada. Suspendisse malesuada turpis purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                    sit amet tristique. Integer metus nunc, fringilla id urna in, facilisis auctor lectus</p>
+                <button class="web-button">MY WORKS</button>
+            </div>
+        </section>
+        <section class="myworks">
+            <div class="myworks-card invert">
+                <h1>Pixel Perfection</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                    malesuada. Suspendisse malesuada turpis purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                    sit amet tristique. Integer metus nunc, fringilla id urna in, facilisis auctor lectus</p>
+                <button class="web-button">MY WORKS</button>
+            </div>
+            <div><img src="./img/Designer.jpg" alt="" width="380px" style="margin-left: 100px;"></div>
+        </section>
+        <section class="myworks">
+            <div><img src="./img/DesignIcons.png" alt="" style="margin-right: 100px;"></div>
+            <div class="myworks-card">
+                <h1>Complete Graphic Solutions</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                    malesuada. Suspendisse malesuada turpis purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                    sit amet tristique. Integer metus nunc, fringilla id urna in, facilisis auctor lectus</p>
+                <button class="web-button">MY WORKS</button>
+            </div>
+        </section>
+        <section id="portfolio"></section>
+        <div style="text-align: center;">
+            <h1>My Works So Far</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                malesuada. Suspendisse malesuada turpis<br> purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                sit amet tristique.</p>
+        </div>
+        <div id="portfolio-gallery">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+                <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+                <button class="btn" onclick="filterSelection('people')"> People</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column app">
+                    <div class="content">
+                        <img src="./img/portfolio-app.jpg" alt="App" style="width:100%">
+                    </div>
+                    <div class="label">
+                        <div class="label-text">
+                            <h4>Project Name</h4>
+                            <p>Vestibulum sollicitudin non nunc ac iaculis. Aenean maximus leo eget tellus convallis
+                                hendrerit. Integer sed lectus consequat, commodo ligula eu, ultricies nunc. Integer eget
+                                interdum nulla. Aliquam erat volutpat.</p>
+                        </div>
+                        <div class="label-bg"> </div>
+                    </div>
+                </div>
+                <div class="column app">
+                    <div class="content">
+                        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+                        <h4>Lights</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <div class="column app">
+                    <div class="content">
+                        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+                        <h4>Forest</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+                        <h4>Retro</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+                        <h4>Fast</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+                        <h4>Classic</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+
+                <div class="column people">
+                    <div class="content">
+                        <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+                        <h4>Girl</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+                        <h4>Man</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+                        <h4>Woman</h4>
+                        <p>Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+        </div>
+        <section id="logos"></section>
+        <div style="text-align: center;">
+            <h1>Trusted By These Companies</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                malesuada. Suspendisse malesuada turpis<br> purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                sit amet tristique.</p>
+        </div>
+        <section id="blog"></section>
+        <div style="text-align: center;">
+            <h1>From My Blog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                malesuada. Suspendisse malesuada turpis<br> purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                sit amet tristique.</p>
+        </div>
+        <section id="testimonials"></section>
+        <div style="text-align: right">
+            <h1>What People Say About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                malesuada. Suspendisse malesuada turpis<br> purus, eu mollis risus posuere sed. Mauris tristique eu erat
+                sit amet tristique.</p>
+        </div>
+        <section id="newsletter-section">
+            <div style="text-align: center;">
+                <h1>Subscribe To My Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim id ipsum id
+                    malesuada. Suspendisse malesuada turpis<br> purus, eu mollis risus posuere sed. Mauris tristique eu
+                    erat
+                    sit amet tristique.</p>
+            </div>
+            <div id="newsletter">
+                <input type="email" name="email" id="email-newsletter" value="Enter Your Email">
+                <button class="web-button">SUBSCRIBE</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Websites</h2>
+            <p>www.mywebsite.com</p>
+        </div>
+        <div>
+            <h2>Contact Me</h2>
+            <p>Super Awesome Street #291,SA 31142</p>
+            <h2 style="color: yellow;">tristmail@trist.com</h2>
+        </div>
+        <div>
+            <h2>Social</h2>
+            <div id="social-links">
+                <p>Twitter</p>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Dribble</p>
+            </div>
+            <div style="text-align: right;">
+                <button id="back-top">Back To Top</button>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/7b113a5143.js" crossorigin="anonymous"></script>
+    <script src="./js/functions.js"></script>
+</body>
+
+</html>
